@@ -17,7 +17,7 @@ export default function HeadBar() {
                     />
                 </Link>
                 <div className="flex flex-row basis-3/4" style={{textAlign:"right"}}>
-                    <div className="basis-2/4"><Button color="blue" children="Login or Register"/></div>
+                    <div className="basis-2/4"><Button color="blue" text="Login or Register"/></div>
                     <div className="flex flex-row basis-2/4" style={{textAlign:"right"}}>
                         <div className="basis-2/4">
                             <FontAwesomeIcon icon={faBasketShopping} style={{width:"35px",marginLeft:"200px"}}/>
