@@ -1,6 +1,6 @@
-import Header from "../homepage/header";
-import Body from "../homepage/body";
-import Footer from "../homepage/footer";
+import Header from "@/contact/header";
+import Body from "@/contact/body";
+import Footer from "@/contact/footer";
 
 export default function Home() {
   return (

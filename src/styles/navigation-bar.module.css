@@ -1,0 +1,12 @@
+.navLink {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.navLinkActive{
+    color: blue;
+    text-decoration: none;
+    margin-right: 50px;
+}
+  
