@@ -1,3 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    height: 80px;
+    justify-content:center;
+    font: bold;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+.navLinkLogo {
+    margin-right: 100px;
+}
 .navLink {
     color: black;
     text-decoration: none;
