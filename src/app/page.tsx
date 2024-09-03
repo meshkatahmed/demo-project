@@ -1,5 +1,5 @@
 import Header from "../homepage/header";
-import Body from "../homepage/body";
+import Body from "../homepage/body/body";
 import Footer from "../homepage/footer";
 
 export default function Home() {
