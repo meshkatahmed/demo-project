@@ -1,6 +1,10 @@
-import SearchCar from "./searchCar";
-import Campaigns from "./campaigns";
-import CarType from "./carType";
+import SearchCar from "./components/searchCar";
+import Campaigns from "./components/campaigns";
+import CarType from "./components/carType";
+import Manufacturers from "./components/manufacturers";
+import CertifiedCars from "./components/certifiedCars";
+import HowTo from "./components/howTo";
+import FAQ from "./components/FAQ";
 
 export default function Body() {
     return (
@@ -8,10 +12,10 @@ export default function Body() {
             <SearchCar/>
             <Campaigns/>
             <CarType/>
-            {/* <Manufacturers/>
+            <Manufacturers/>
             <CertifiedCars/>
             <HowTo/>
-            <FAQ/> */}
+            <FAQ/>
         </>
     )
 }

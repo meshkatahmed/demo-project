@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -45,7 +45,7 @@ export default function NavigationBar() {
                     Services
                 </Link>
                 <Link
-                    className={pathname === '/contact' ?
+                    className={pathname === '/offers' ?
                         styles.navLinkActive :
                         styles.navLink}
                     href='/offers'
@@ -53,7 +53,7 @@ export default function NavigationBar() {
                     Offers
                 </Link>
                 <Link
-                    className={pathname === '/contact' ?
+                    className={pathname === '/contacts' ?
                         styles.navLinkActive :
                         styles.navLink} 
                     href='/contacts'
@@ -76,4 +76,3 @@ export default function NavigationBar() {
         </div>
     );
 }
-// style={{border:'2px',borderStyle:'solid'}}

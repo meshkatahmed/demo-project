@@ -1,5 +1,7 @@
 export default function Body() {
     return (
-        <div>This is about body</div>
+        <div className="container px-20 py-10">
+
+        </div>
     )
 }
