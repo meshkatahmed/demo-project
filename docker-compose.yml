@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    image: meshkat92/demo-project:latest
+    ports:
+      - 127.0.0.1:3000:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
