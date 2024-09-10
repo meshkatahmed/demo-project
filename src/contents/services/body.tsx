@@ -1,5 +1,7 @@
 export default function Body() {
     return (
-        <div>This is services body</div>
-    );
+        <div className="container px-20 py-10">
+
+        </div>
+    )
 }

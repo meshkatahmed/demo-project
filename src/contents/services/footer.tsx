@@ -1,5 +1,7 @@
 export default function Footer() {
     return (
-        <div>This is services footer</div>
+        <div className="container px-20 py-10">
+
+        </div>
     )
 }
