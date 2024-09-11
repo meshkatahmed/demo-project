@@ -1,0 +1,10 @@
+.homepageTopper {
+    background: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh; 
+    align-content: center;  /* vertical alignment */
+    text-align: center; /* horizotal alignment */
+    color: aliceblue;
+    position: relative;
+  }

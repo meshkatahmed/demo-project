@@ -1,13 +1,7 @@
-import Header from "@/about/header";
-import Body from "@/about/body";
-import Footer from "@/about/footer";
-
-export default function Home() {
+export default function About() {
   return (
-    <div>
-      <Header />
-      <Body />
-      <Footer />
+    <div className="container px-20 py-10">
+      <div className="underConstructionPage">Thank you for visiting us. This page is under construction...</div>
     </div>
   );
-}
+};

@@ -23,30 +23,33 @@
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 1000;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.homepage-header {
-  position: relative;
-  background: url('/background.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 70vh; 
-  align-content: center;  /* vertical alignment */
-  text-align: center; /* horizotal alignment */
-  color: aliceblue;
+.pageSectionBody {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
 }
 
-.logo {
-  width: 100px;
-  height: 50px;
-  display: inline-flexbox;
+.underConstructionPage {
+  text-align: center;
+  margin-top: 220px;
+  font-size: 25px;
 }
+
 button {
   font-size: 12px;
 }
+
+.bordering {
+  border: 1px black solid;
+}
+
 
 
 
