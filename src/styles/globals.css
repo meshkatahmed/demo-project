@@ -26,16 +26,22 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 30px;
   font-weight: 1000;
   text-transform: capitalize;
-}
-
-.pageSectionHeading {
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .pageSectionBody {
   display: flex;
   padding: 10px;
+  justify-content: center;
 }
+
+.underConstructionPage {
+  text-align: center;
+  margin-top: 220px;
+  font-size: 25px;
+}
+
 button {
   font-size: 12px;
 }

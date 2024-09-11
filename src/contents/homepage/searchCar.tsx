@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import styles from '@/styles/homepage-body-searchCar.module.css';
+import styles from '@/styles/homepage-searchCar.module.css';
 
 export default function SearchCar() {
     const [minPrice, setMinPrice] = useState("500000");

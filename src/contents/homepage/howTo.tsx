@@ -1,7 +1,7 @@
-export default function FAQ() {
+export default function HowTo() {
     return (
         <div className="container px-20 py-10">
-            <h2 className="pageSectionHeading">FAQ</h2>
+            <h2>How To</h2>
             <div className="pageSectionBody">
 
             </div>

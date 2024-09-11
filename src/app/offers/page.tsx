@@ -1,13 +1,7 @@
-import Header from "@/contents/offers/header";
-import Body from "@/contents/offers/body";
-import Footer from "@/contents/offers/footer";
-
-export default function ContactHome() {
+export default function Offers() {
   return (
-    <div>
-      <Header />
-      <Body />
-      <Footer />
+    <div className="container px-20 py-10">
+      <div className="underConstructionPage">Thank you for visiting us. This page is under construction...</div>
     </div>
   );
-}
+};
