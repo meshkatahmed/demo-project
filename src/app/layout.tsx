@@ -21,11 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
           <NavigationBar/>
-          <main>{children}</main>  
+          <main className='container px-20 space-y-10'>{children}</main>  
           <Footer/>
       </body>
     </html>
   );
 }
-
-// global style for main

@@ -1,6 +1,6 @@
 export default function HowTo() {
     return (
-        <div className="container px-20 py-10">
+        <div>
             <h2>How To</h2>
             <div className="pageSectionBody">
 
