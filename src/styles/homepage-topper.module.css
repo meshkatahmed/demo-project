@@ -1,6 +1,6 @@
 .homepageTopper {
-    background: url('/background.jpg');
-    background-size: cover;
+    background: url('/topper/background.jpg');
+    background-size: 100%;
     background-position: center;
     min-height: 70vh; 
     align-content: center;  /* vertical alignment */

@@ -1,6 +1,14 @@
 ## Getting Started
 
-First, run the development server:
+Install nodejs latest version. Then, install dependencies using following command:
+
+```bash
+npm install 
+# or 
+pnpm install
+```
+
+To run the project locally, start the development server using following command:
 
 ```bash
 npm run dev
@@ -13,19 +21,9 @@ bun dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Building docker image and runing
+## Building docker image and running
 
-To build a docker image first need to production build with the command
-
-```bash
-pnpm build
-
-# or
-
-npm build
-```
-
-After the production build, use docker compose to build and run the image with the command
+Build and run docker image with following command:
 
 ```bash
 docker compose up --build -d

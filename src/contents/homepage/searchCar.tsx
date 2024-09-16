@@ -14,7 +14,7 @@ export default function SearchCar() {
     }
 
     return (
-        <div className='container px-20 py-10'>
+        <div>
             <div className='pageSectionBody'>
                 <div className={styles.searchContainer}>
                     <select name="condition" id="condition" className={styles.dropdown}>
@@ -23,7 +23,6 @@ export default function SearchCar() {
                         <option value="new">New</option>
                         <option value="reconditioned">Reconditioned</option>
                     </select>
-
 
                     <select name="category" id="category" className={styles.dropdown}>
                         <option value="" selected disabled>Category</option>
