@@ -14,7 +14,7 @@ export default function NavigationBar() {
             <nav className={styles.navbar}>
                 <Link href="/" style={{marginRight:'200px'}}>  
                     <Image
-                        src="next.svg"
+                        src="navbar/next.svg"
                         width={100}
                         height={100}
                         alt="A random image"

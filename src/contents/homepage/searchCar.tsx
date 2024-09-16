@@ -24,7 +24,6 @@ export default function SearchCar() {
                         <option value="reconditioned">Reconditioned</option>
                     </select>
 
-
                     <select name="category" id="category" className={styles.dropdown}>
                         <option value="" selected disabled>Category</option>
                         <option value="sedan">Sedan</option>
