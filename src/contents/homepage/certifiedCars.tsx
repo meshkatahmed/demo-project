@@ -1,6 +1,6 @@
 export default function CertifiedCars() {
     return (
-        <div className="container px-20 py-10">
+        <div>
             <h2>Certified Cars</h2>
             <div className="pageSectionBody">
 

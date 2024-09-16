@@ -14,7 +14,7 @@ export default function SearchCar() {
     }
 
     return (
-        <div className='container px-20 py-10'>
+        <div>
             <div className='pageSectionBody'>
                 <div className={styles.searchContainer}>
                     <select name="condition" id="condition" className={styles.dropdown}>
